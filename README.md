@@ -3,6 +3,10 @@
 <br>
 
 ![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pinecone](https://img.shields.io/badge/Pinecone-Vector%20DB-000000?style=for-the-badge&logo=pinecone&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP-Server-orange?style=for-the-badge)
 ![FastMCP](https://img.shields.io/badge/FastMCP-Backend-009688?style=for-the-badge)
 ![UV](https://img.shields.io/badge/UV-Package%20Manager-646CFF?style=for-the-badge)
@@ -78,7 +82,8 @@ Designed to complement the [IA-agent-with-tools---](https://github.com/EduhxH/IA
 | [FastMCP](https://github.com/jlowin/fastmcp) | MCP Server Framework |
 | [UV](https://github.com/astral-sh/uv) | Ultra-fast Python package manager |
 | [Pinecone](https://www.pinecone.io/) | Vector Database |
-| [Google API](https://developers.google.com/gmail/api) | Gmail & Google Services Integration |
+| [Google Cloud / Gmail](https://developers.google.com/gmail/api) | Email & Cloud Services Integration |
+| [Microsoft Excel](https://www.microsoft.com/excel) | Spreadsheet Automation |
 
 </div>
 
@@ -150,6 +155,7 @@ The server is configured via environment variables. Create a `.env` file in the 
 ```env
 PINECONE_API_KEY=your_key
 PINECONE_ENVIRONMENT=your_env
+GOOGLE_CLOUD_CREDENTIALS=path_to_json
 # Add other service credentials as needed
 ```
 
@@ -169,7 +175,9 @@ mcp-server-pro/
 │   │   ├── autonomy_tools.py
 │   │   ├── db_connector.py
 │   │   ├── excel_connector.py
-│   │   └── gmail_connector.py
+│   │   ├── gmail_connector.py
+│   │   ├── ide_connector.py
+│   │   └── pinecone_connector.py
 │   ├── utils/              # Shared utilities and logging
 │   ├── config.py           # Configuration management
 │   └── server.py           # FastMCP server entry point
@@ -187,7 +195,7 @@ mcp-server-pro/
 ## 🧠 &nbsp;What I Learned
 
 - Implementation of the **Model Context Protocol (MCP)** for standardized AI tool use.
-- Building scalable **asynchronous connectors** for third-party APIs (Google, Pinecone).
+- Building scalable **asynchronous connectors** for third-party APIs (Google Cloud, Pinecone).
 - Managing complex tool registries using the **FastMCP** framework.
 - Professional project structure and dependency management with **UV**.
 
@@ -202,3 +210,4 @@ mcp-server-pro/
 Made with 💜 by [EduhxH](https://github.com/EduhxH)
 
 </div>
+
