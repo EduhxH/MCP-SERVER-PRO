@@ -11,6 +11,7 @@
 ![FastMCP](https://img.shields.io/badge/FastMCP-Backend-009688?style=for-the-badge)
 ![UV](https://img.shields.io/badge/UV-Package%20Manager-646CFF?style=for-the-badge)
 ![Status](https://img.shields.io/badge/status-in%20development-yellow?style=for-the-badge)
+[![SafeSkill 50/100](https://img.shields.io/badge/SafeSkill-50%2F100_Use%20with%20Caution-orange)](https://safeskill.dev/scan/eduhxh-mcp-server-pro)
 
 <br>
 
